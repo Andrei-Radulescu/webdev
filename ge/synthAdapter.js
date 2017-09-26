@@ -1,6 +1,7 @@
-(function() {
+include('player.js');
+include('synth.js');
 
-	include('player');
+(function() {
 
 	ns_player.SynthAdapter = function() {
 		this.id = 'SynthAdapter';

@@ -1,7 +1,6 @@
+include('fw.js');
+
 (function() {
-
-	include('fw');
-
 	var ns_player = ns_player || {
 
 		Cmd_end:	   -1,
@@ -179,5 +178,5 @@
 		}
 	};
 
-	return ns_player;
+	module.exports = ns_player;
 })();
